@@ -70,13 +70,15 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_A1",
+      "defaultValue": "Standard_NC6",
       "allowedValues": [
-        "Standard_A0",
-        "Standard_A1",
-        "Standard_A2",
-        "Standard_A3",
-        "Standard_A4"
+        "Standard_NC6",
+        "Standard_NC_12",
+        "Standard_NC_24",
+        "Standard_NC_24r",
+        "Standard_NV6",
+        "Standard_NV12",
+        "Standard_NV24"
       ],
       "metadata": {
         "description": "VM Size"
